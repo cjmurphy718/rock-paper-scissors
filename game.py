@@ -1,12 +1,16 @@
 # this is the "game.py" file...
 import random
+import os
+my_env = os.environ
+
 
 
 print("Welcome, Player One! This is: Rock, Paper, Scissors, Shoot!")
 print ("--------")
 
 # USER INPUTS
-
+player_name = os.getenv("player_name", default="Player One")
+print(player_name + ", welcome!")
 user_input = input("Please make a selection ('rock', 'paper', 'scissors')")
 user_input = user_input.lower()
 valid_options = ["rock", "paper", "scissors"]

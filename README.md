@@ -1,17 +1,18 @@
 # rock-paper-scissors
 
 ##Setup
-Thanks for playing! When opening the terminal, create a new virtual environment with the below command:
+Thanks for playing! When opening the terminal for the first time, navigate to the repo. Then, create a new virtual environment with the below command. This will ensure you are running the correct version of Python.
 ```sh
-conda -n my-gam-env python=3.8
+conda create -n my-gam-env python=3.8
 ```
 Once the virtual environment is created, activate it with the following command:
 ```sh
 conda activate my-gam-env
 ```
-Once the environment is activated successfully, run the code by using the following command:
+
+Once the environment is activated successfully, input your player name and run the following code to start the game
 ```sh
-python game.py
+player_name="Your name here" python game.py
 ```
 
 ##Playing
