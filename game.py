@@ -2,7 +2,7 @@
 import random
 
 
-print("Rock, Paper, Scissors, Shoot!")
+print("Welcome, Player One! This is: Rock, Paper, Scissors, Shoot!")
 print ("--------")
 
 # USER INPUTS
@@ -13,7 +13,8 @@ valid_options = ["rock", "paper", "scissors"]
 print ("---------")
 
 # You chose: 'rock'
-print(f"You chose: '{user_input}' ")
+print("You chose:", user_input)
+print("------")
 
 # VALIDATE USER INPUTS
 
